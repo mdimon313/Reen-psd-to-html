@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+
+/*
+
+	font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+	
+*/
+
+* {
+	margin: 0;
+	paddng: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+	text-decoration: none;
+	outline:none;
+}
+.container:before,
+.container:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+
+}
+.col-20 {
+	width: 20%;
+	float: left;
+	padding: 0 15px;
+}
+.col-25 {
+	width: 25%;
+	float: left;
+	padding: 0 15px;
+}
+.col-33 {
+	width: 33.33%;
+	float: left;
+	padding: 0 15px;
+}
+.col-50 {
+	width: 50%;
+	float: left;
+	padding: 0 15px;
+}
+.col-80 {
+	width: 80%;
+	float: left;
+	padding: 0 15px;
+}
+.mb-30 {
+	margin-bottom: 30px;
+}
+section {
+	padding: 80px 0;
+}
+/*=================== HEADER STYE ===============*/
+
+/*================= START TOPBAR STYEL ==============*/
+.container {
+	max-width: 1170px;
+	margin: auto;
+}
+.topBar {
+	background-color: #f5f7fa;
+}
+.mail {
+	width: 140px;
+	float: left;
+	padding: 15px 0;
+	margin-right: 20px;
+}
+.mail p {
+	color: #5a728c;
+}
+.mail i {
+	font-size: 13px;
+	color: #5a728c;
+	margin-right: 10px;
+}
+.phone {
+	padding: 15px 0;
+}
+.phone p {
+	color: #5a728c;
+}
+.phone  i {
+	font-size: 13px;
+	color: #5a728c;
+	margin-right: 10px;
+}
+.socialIcons {
+	padding: 15px 0;
+	float: right;
+}
+.socialIcons:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.socialIcons a {
+	display: block;
+	color: #5a728c;
+	margin-right: 20px;
+	float: left;
+	transition: .5s;
+}
+.socialIcons a:last-child {
+	margin-right: 0px;
+}
+.socialIcons a:hover {
+	color: #00bc9c;
+}
+/*=========== END TOPBAR SYTLE ===========*/
+
+/*================= START LOGO & NAVIGATION STYLE ================*/
+
+.logo {
+	padding: 22px 0;
+}
+.primeryMenu {
+	overflow: hidden;
+	padding: 22px 0;
+	line-height: 40px;
+}
+.menuList {
+	list-style: none;
+}
+.menuList li {
+	float: left;
+}
+.menuList li a {
+	display: block;
+	float: left;
+	color: #5a728c;
+	/*padding: 0 20px;*/
+	margin-right: 40px;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	transition: .5s;
+}
+.menuList li a:hover {
+	color:  #00bc9c;
+}
+.serach {
+	float: right;
+}
+/*============== START BANNER STYEL =============*/
+#banner {
+	background: url(../image/bg.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+.mdContent {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.mdContent h1 {
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.mdContent p {
+  width: 646px;
+  color: #a3b1bf;
+  line-height: 27px;
+  margin-bottom: 60px;
+}
+#getStartBtn {
+  border: none;
+  outline: none;
+  width: 230px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: #00bc9c;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 4px solid #01997f;
+  cursor: pointer;
+  transition: .3s;
+}
+#getStartBtn:hover {
+	background-color: #5e605f;
+	border-bottom: 4px solid #4c4c4c;
+	box-shadow: 0px 5px 10px -3px #000000e6;
+}
+/*======================= END BANNER STYE ====================*/
+
+/*========================== START Creativity & Responsive STYLE =====================*/
+.secTitle {
+  text-align: center;
+}
+.secTitle h2 {
+  font-size: 35px;
+  font-family: lato;
+  color: #506a85;
+  margin-bottom: 30px;
+  position: relative;
+  padding-bottom: 20px;
+}
+.secTitle h2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80px;
+  height: 3px;
+  background: #00bc9c;
+  right: 0;
+  margin: auto;
+}
+.secTitle p {
+  width: 768px;
+  margin: auto;
+  font-size: 20px;
+  color: #a3b1bf;
+  margin-bottom: 70px;
+}
+.creativitywrapper {
+  /*overflow: hidden;*/
+}
+.creativityIcon {
+  width: 20%;
+  float: left;
+  text-align: center;
+  margin-right: 20px;
+}
+.creativityIcon img {
+	width: 100%;
+}
+.creativityMeta {
+	overflow: hidden;
+}
+.creativityMeta h2 {
+	font-size: 25px;
+	color: #506a85;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+.creativityMeta p {
+	color: #73879c;
+	font-size: 15px;
+}
+
+/*=================== END Creativity & Responsive STYE =============*/
+
+/*============================ Start Work Style ==================*/
+#work {
+	background-color: #f2f5f7;
+}
+.mb-80 {
+	margin-bottom: 80px;
+}
+.workWrapper {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.workWrapper:after {
+	content:"";
+	clear: both;
+	display: table;
+}
+.workImage {
+	overflow: hidden;
+}
+.workImage img {
+	width: 100%;
+	margin-bottom: 0;
+	padding: 0;
+}
+.workMeta {
+	background-color: #fff;
+	border-left: 1px solid #e6e9ed;
+	border-right: 1px solid #e6e9ed;
+	border-bottom: 2px solid #e6e9ed;
+	margin-top: -5px;
+	text-align:center;
+	padding: 20px 0;
+}
+.workMeta h3 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-family: lato;
+  color: #506a85;
+}
+.workMeta p {
+	color: #afb9c4;
+}
+.workimg img {
+	width: 100%;
+}
+.sliderPoint {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sliderPoint .point {
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	background-color: #506a85;
+	border-radius: 100%;	
+}
+.sliderPoint .active {
+	background-color: #00bc9c;
+}
+/*============================ End Work Style ==================*/
+
+/*============================ Start Contact Style ==================*/
+.getTouch {
+	overflow: hidden;
+	width: 535px;
+	margin: 0 auto;
+	text-align: center;
+}
+.getTouch h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	color: #506a85;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.getTouch h2:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+  bottom: 0;
+  width: 70px;
+  height: 3px;
+  background: #00bc9c;
+  right: 0;
+}
+.getTouch p {
+	color: #73879c;
+	font-size: 15px;
+	line-height: 23px;
+	margin-bottom: 20px;
+}
+#gettouchBtn {
+	width: 150px;
+	height: 50px;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	border-bottom: 4px solid #00a085;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #00bc9c;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	cursor: pointer;
+	transition: .3s;
+}
+#gettouchBtn:hover {
+	background-color: #5e605f;
+	border-bottom: 4px solid #4c4c4c;
+	box-shadow: 0px 5px 10px -3px #000000e6;
+}
+/*============================ End Contact Style ==================*/
+
+.contentWrapper {
+	background-color: #2f4052;
+	padding: 75px 0;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+/*------------------- Foot About Style Box-------------*/
+.footHead {
+	color: #fff;
+}
+.footAbout p {
+    color: #a3b1bf;
+    font-size: 14px;
+    line-height: 22px;
+}
+a#moreAbout {
+    color: #a3b1bf;
+    text-transform: lowercase;
+    font-size: 14px;
+}
+a#moreAbout i {
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+/*----------------- Foot Work Style Box-------------*/
+.footThambnil  {
+	display: grid;
+	grid-template-columns: 131px 131px;
+	grid-gap: 5px;
+}
+.footThambnil img {
+	width: 100%;
+}
+/*------------ Foot Contact Style Box-----------*/
+.footContact p {
+    color: #a3b1bf;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footContact span {
+    display: block;
+    margin-bottom: 5px;
+    color: #a3b1bf;
+}
+
+.footContact span i {
+    font-size: 13px;
+    margin-right: 8px;
+}
+/*------------ Foot Subscribe Style Box------------------*/
+
+.subsBox {
+    background-color: #4e5c6c;
+    /*width: 270px;*/
+    display: flex;
+    height: 40px;
+	border-radius: 4px;
+}
+.subscribe p {
+    font-size: 14px;
+    color: #a3b1bf;
+    margin-bottom: 20px;
+}
+.subsBox input[type="text"] {
+    border: none;
+    /*margin: 5px;*/
+    width: 150px;
+    float: left;
+    padding: 8px 0px 8px 8px;
+    background-color: transparent;
+    outline: none;
+    color: #a3b1bf;
+}
+button#subsBtn {
+    border: none;
+    outline: none;
+    background-color: #00bc9c;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin: 5px 5px 5px 2px;
+	cursor: pointer;
+}
+
+/*============ Copy Right Style ================*/
+.copyRight::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+.copyRight {
+	background-color: #283645;
+	padding: 20px 0;
+}
+.copyRight p {
+    color: #707e8c;
+    font-size: 14px;
+}
+ul.footMenu {
+    list-style: none;
+    float: right;
+}
+ul.footMenu li {
+    float: left;
+	position: relative;
+}
+
+ul.footMenu li a {
+    color: #707e8c;
+    margin-right: 20px;
+    font-size: 14px;
+	transition: .5s;
+}
+ul.footMenu li a:hover {
+	color: #fff;
+}
+ul.footMenu li .mr-n {
+	margin-right: 0px ;
+}
+ul.footMenu li:before {
+	content: "";
+	position: absolute;
+	right: 8px;
+	top: 50%;
+	width: 3px;
+	height: 3px;
+	border-radius: 100%;
+	background-color: #707e8c;
+}
+ul.footMenu li:last-child:before  {
+	content: "";
+	position: none;
+	display: none;
+}
+
+
+
+
+/************************ END CSS STYLE ********************/
+
+
+
+
+
+
+

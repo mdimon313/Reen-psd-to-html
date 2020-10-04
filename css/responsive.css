@@ -1,0 +1,489 @@
+@media (min-width: 1200px) {
+	.mdContent h1 {
+		font-size: 57px;
+	}
+	.subsBox input[type="text"] {
+        width: 159px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.mdContent h1 {
+		font-size: 52px;
+	}
+	.mdContent p {
+		margin-bottom: 19px;
+		font-size: 14px;
+	}
+	#getStartBtn {
+		width: 206px;
+		height: 46px;
+		font-size: 15px;
+	}
+	.creativityIcon {
+		height: 200px;
+	}
+	.creativityIcon img {
+		width: 37px;
+	}
+	.creativityMeta h2 {
+		font-size: 23px;
+	}
+	.getTouch h2 {
+		margin-bottom: 20px;
+	}
+	.subsBox {
+		width: 100%;
+	}
+	.subsBox input[type="text"] {
+		margin: 7px 0;
+		padding: 6px;
+		width: 100%;
+		font-size: 11px;
+		/*font-weight: 700;*/
+	}
+	button#subsBtn {
+		padding: 8px 7px;
+		font-size: 12px;
+		
+	}
+	.footThambnil {
+	    grid-template-columns: 105px 105px;
+	    grid-gap: 5px;
+	}
+	.footAbout, .footWork {
+		margin-bottom: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.menuList li a {
+    	margin-right: 17px;
+    	font-size: 14px;
+	}
+	.mdContent h1 {
+    	font-size: 45px;
+    }
+    .mdContent p {
+    	margin-bottom: 30px;
+    }
+    #getStartBtn {
+	    width: 200px;
+	    font-size: 16px;
+	}
+	.secTitle h2 {
+	    font-size: 30px;
+	    margin-bottom: 23px;
+	    padding-bottom: 15px;
+	}
+	.secTitle p {
+	    font-size: 17px;
+	    margin-bottom: 50px;
+	    padding: 0 15px;
+	}
+	.creativityIcon {
+    	width: 18%;
+    	height: 220px;
+    }
+    .workimg img {
+	    margin-bottom: 15px;
+	}
+    .col-25 {
+		width: 50%;
+		float: left;
+		padding: 0 15px;
+	}
+	.getTouch p {
+	    margin-bottom: 20px;
+	}
+	#gettouchBtn {
+		margin-bottom: 20px;
+	}
+	.footAbout, .footWork {
+		margin-bottom: 30px;
+	}
+	.subsBox {
+		width: 100%;
+	}
+	.subsBox input[type="text"] {
+	    margin: 5px 0;
+	    width: 100%;
+	    padding: 0 8px;
+	    line-height: 29px;
+	}
+	ul.footMenu:after {
+		content: '';
+		clear: both;
+		display: table;
+	}
+	ul.footMenu {
+		padding: 0px !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.mail {
+	    width: 126px;
+	    margin-right: 5px;
+	    font-size: 13px;
+	}
+	.mail i {
+		margin-right: 4px;
+	}
+	.phone {
+		font-size: 13px;
+	}
+	.phone i {
+		margin-right: 4px;
+	}
+	.col-20,
+	.col-80 {
+		width: 100%;
+		text-align: center;
+	}
+	.logo {
+	    padding: 10px;
+	}
+	.primeryMenu {
+		padding: 10px 0;
+	}
+	.menuList li a {
+		margin-right: 12px;
+		font-size: 14px;
+	}
+	.mdContent h1 {
+		font-size: 40px;
+	}
+	.mdContent p {
+	    width: 500px;
+	    margin-bottom: 20px;
+	}
+	#getStartBtn {	    
+	    width: 201px;
+	    height: 47px;	    
+	    font-size: 16px;
+	}
+	.secTitle h2 {
+	    font-size: 29px;
+	    margin-bottom: 20px;
+	}
+
+	.secTitle p {
+	    width: 100%;	    
+	    font-size: 17px;
+	    margin-bottom: 46px;
+	    padding: 0 16px;
+	}
+	.creativityIcon {
+	    width: 17%;
+	    height: 238px;
+	    margin-right: 17px;
+	}
+	.creativityMeta h2 {
+	    font-size: 22px;
+	    margin-bottom: 13px;
+	}
+	.creativityMeta p {
+	    font-size: 14px;
+	}
+	.workWrapper {
+	    margin-bottom: 0px;
+	}
+	.workMeta h3 {
+	    font-size: 15px;
+	    padding: 0 10px;
+	}
+	.workimg {
+	    margin-bottom: 30px;
+	}
+	.col-25 {
+		width: 50%;
+		float: left;
+		padding: 0 15px;
+	}
+	.footThambnil {
+	    grid-template-columns: 130px 129px;
+	    grid-column-gap: 5px;
+	    grid-row-gap: 0px; 
+	}
+	.getTouch p {
+	    margin-bottom: 20px;
+	}
+	#gettouchBtn {
+		margin-bottom: 20px;
+	}
+	.subsBox {
+		width: 100%;
+	}
+	.subsBox input[type="text"] {
+		width: 100%;
+	}
+	.footAbout, .footWork {
+		margin-bottom: 30px;
+	}
+
+	ul.footMenu {
+    padding: 0;
+    margin-right: 86px;
+    padding-top: 10px;
+}
+}
+@media (min-width: 360px) and (max-width: 576px) {
+	.col-20,
+	.col-25,
+	.col-33,
+	.col-50,
+	.col-80 {
+		width: 100%;
+	}
+	.contentWrap {
+		box-shadow: 0px 0px 10px -2px #a8a8a87a;
+	}
+	.creativityMeta {
+		padding: 20px 0px;
+		border-radius: 3px;
+	}
+	.socialIcons {
+	    margin-right: 25%;
+
+	}
+	.logo {
+	    padding: 14px 0;
+	    text-align: center;
+	}
+	.logo img {
+	    width: 124px;
+	}
+	.primeryMenu {
+		padding: 0px 0px 10px 0px; 
+	}
+	.menuList li a {
+		margin-right: 12px;
+		font-size: 13px;
+	}
+	.mdContent h1 {
+	    font-size: 29px;
+	}
+	.mdContent p {
+	    width: 360px;
+	    padding: 0 15px;
+	}
+	#getStartBtn {
+		width: 180px;
+		height: 46px;
+		font-size: 14px;
+	}
+	.secTitle h2 {
+		font-size: 23px;
+		margin-bottom: 25px;
+	}
+	.secTitle p {
+		width: 100%;
+		padding: 0 15px;
+		font-size: 15px;
+	}
+	.workMeta h3 {
+		font-size: 17px;
+	}
+	.workimg {
+	    margin-bottom: 10px;
+	}
+	.creativityIcon {
+	    width: 100%;
+	    text-align: center;
+	    margin-top: 20px;
+	    margin-bottom: 12px;
+	    height: 57px;
+
+	}
+	.creativityIcon img {
+	    width: 50px;
+	}
+	.creativityMeta {
+		text-align: center;
+		padding: 15px;
+	}
+	.col-33 {
+		margin-bottom: 25px;
+	}
+	.col-33:last-child {
+		margin-bottom: 0px;
+	}
+	.getTouch {
+		width: 100%;
+	}
+	.getTouch h2 {
+		font-size: 23px;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 12px;
+	}
+	.getTouch p {
+		width: 100%;
+		padding: 0 15px;
+		margin-bottom: 30px;
+	}
+	#gettouchBtn {
+		display: block;
+		margin: 0px 20px 30px 100px;
+
+	}
+	/*---------footer area -----------*/
+
+	/*---------- foot About Style----------*/
+	.footAbout {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.footHead {
+		font-size: 17px;
+	}
+	.logo-alt img {
+		width: 100px;
+	}
+	/*----------------- foot Work styel -----------*/
+	.footWork {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.footThambnil {
+		grid-template-columns: 49.89% 49.89%;
+		grid-column-gap: 8px;
+		overflow: hidden;
+	}
+
+	/*----------------- Foot Contact --------------*/
+
+	.footContact {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	/*---------- Subscribe Style ------------------*/
+
+	.subscribe {
+		text-align: center;
+	}
+	.copyRight p {
+    	text-align: center;
+    	margin-bottom: 8px;
+    }
+	.subsBox {
+		width: 100%;
+	}
+	.subsBox input[type="text"] {
+    	width: 100%;
+    }
+
+    /*------------ Copyright Style ------------*/
+    
+	.footMenu {
+		padding: 0px;
+		margin-right: 50px;
+	}
+	ul.footMenu li a {
+		margin-right: 17px;
+
+	}
+	
+}
+
+@media /*(min-width: 320px) and*/ (max-width: 359px) {
+	.col-20,
+	.col-25,
+	.col-33,
+	.col-50,
+	.col-80 {
+		width: 100%;
+	}
+	.mail{
+		margin: 0 10px;
+	}
+	.socialIcons {
+		float: none;
+		margin-left: 20%;
+	}
+	.logo {
+		padding: 20px 0px 0px 0px ;
+	}
+	.logo img {
+		width: 140px;
+	}
+	.menuList li a {
+		font-weight: 600;
+		margin-right: 12px;
+    	font-size: 13px;
+	}
+	.mdContent {
+		width: 100%;
+	}
+	.mdContent h1 {
+	    font-size: 37px;
+	}
+	.mdContent p {
+	    width: 100%;
+	    font-size: 15px;
+	    padding: 15px;
+	}
+	
+	#getStartBtn {
+	    width: 152px;
+	    height: 40px;
+	    font-size: 13px;
+	}
+	.secTitle h2 {
+		font-size: 23px;
+	}
+	.secTitle p {
+		font-size: 15px;
+	}
+	.contentWrap {
+		padding: 10px;
+		box-shadow: 0px 0px 10px -2px #a8a8a88c;
+		/*margin-bottom: 10px;*/
+	}
+	
+	.creativityIcon img {
+		width: 70%;
+	}
+	.getTouch {
+		width: 100%;
+	}
+	.getTouch h2 {
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+	.getTouch p {
+		padding: 15px;
+	}
+	.footAbout, 
+	.footWork,
+	.footContact,
+	.subscribe {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.logo-alt img {
+	    width: 100px;
+	}
+	.footThambnil {
+		grid-template-columns: 1fr 1fr;
+	}
+	.subsBox {
+		width: 100%;
+	}
+	.subsBox input[type="text"] {
+		width: 100%;
+	}
+	.copyRight p {
+		text-align: center;
+	}
+	ul.footMenu {
+		float: none;
+		padding: 0px;
+		margin: 10px 0px 0px 0px;
+	}
+	ul.footMenu li a {
+		font-size: 12px;
+		margin-right: 16px;
+	}
+}
